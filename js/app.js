@@ -105,4 +105,8 @@ function jump(target, options) {
     return -c / 2 * (t * (t - 2) - 1) + b
   }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> v2.0

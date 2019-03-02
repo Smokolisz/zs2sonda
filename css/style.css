@@ -185,7 +185,11 @@ body {
 }
 
 .content {
+<<<<<<< HEAD
     padding: 100px 0px;
+=======
+    padding: 100px 0px 70px;
+>>>>>>> v2.0
     margin: 0 auto;
     width: 1100px;
 }
@@ -220,6 +224,45 @@ body {
     opacity: 0.7;
 }
 
+<<<<<<< HEAD
+=======
+.posts {
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+    padding-top:1px;
+}
+
+.post-el {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #eee;
+    border-radius:15px; 
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #333;
+    padding: 1px 0px;
+}
+
+.post-el p {
+    margin: 5px 0px;
+}
+
+.post-info {
+    color: #999;
+    font-size: 13px;
+}
+
+>>>>>>> v2.0
 .team-section {
     width: 100%;
     padding: 40px 0px 100px;
@@ -240,7 +283,11 @@ body {
     width: 35%;
     float: left;
     background-color: #222;
+<<<<<<< HEAD
     padding: 15px 0px 10px;
+=======
+    padding: 120px 0px 10px;
+>>>>>>> v2.0
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -412,8 +459,25 @@ a {
     height: 500px;
 }
 
+<<<<<<< HEAD
 
 @media screen and (max-width:1300px) {
+=======
+.center {
+    text-align:center;
+}
+
+@media screen and (max-width:1367px) {
+
+    .top {
+        max-height: unset;
+    }
+}
+
+
+@media screen and (max-width:1300px) {
+
+>>>>>>> v2.0
     .nav-li {
         min-width: 16.66%;
         font-size: 17px;
@@ -473,7 +537,12 @@ a {
 
     .team-li {
         padding: 10px;
+<<<<<<< HEAD
         float: left;
+=======
+        /*float: left;*/
+        display:inline-block;
+>>>>>>> v2.0
     }
 
     .team-span::after {
@@ -494,10 +563,17 @@ a {
         transform: scale(1);
     }
 
+<<<<<<< HEAD
     .team-li:nth-child(6n+1) {
         clear: both;
         display: block;
     }
+=======
+    /*.team-li:nth-child(5n+6) {
+        clear: both;
+        display: block;
+    }*/
+>>>>>>> v2.0
 
     .text-logo {
         margin-top: -15px;
