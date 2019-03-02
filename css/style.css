@@ -114,11 +114,13 @@ body {
     background-color: #fff;
 }
 
-.nav-li:hover .nav-a:after, .nav-a:focus .nav-a:after{
+.nav-li:hover .nav-a:after,
+.nav-a:focus .nav-a:after {
     height: 100%;
 }
 
-.nav-li:hover .nav-a, .nav-a:focus .nav-a {
+.nav-li:hover .nav-a,
+.nav-a:focus .nav-a {
     color: black;
 }
 
@@ -185,11 +187,8 @@ body {
 }
 
 .content {
-<<<<<<< HEAD
     padding: 100px 0px;
-=======
     padding: 100px 0px 70px;
->>>>>>> v2.0
     margin: 0 auto;
     width: 1100px;
 }
@@ -204,7 +203,7 @@ body {
 
 .zs2logo::before {
     content: "";
-    display:block;
+    display: block;
     background-image: url("../img/logo_zs2.png");
     background-size: cover;
     width: 150px;
@@ -212,8 +211,8 @@ body {
     opacity: 0.4;
     position: absolute;
     z-index: -1;
-    top:-60px;
-    right:0px;
+    top: -60px;
+    right: 0px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -224,12 +223,10 @@ body {
     opacity: 0.7;
 }
 
-<<<<<<< HEAD
-=======
 .posts {
     border-top: 1px solid #ddd;
     margin-top: 50px;
-    padding-top:1px;
+    padding-top: 1px;
 }
 
 .post-el {
@@ -238,7 +235,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     background-color: #eee;
-    border-radius:15px; 
+    border-radius: 15px;
 }
 
 .post-title {
@@ -262,7 +259,6 @@ body {
     font-size: 13px;
 }
 
->>>>>>> v2.0
 .team-section {
     width: 100%;
     padding: 40px 0px 100px;
@@ -283,11 +279,8 @@ body {
     width: 35%;
     float: left;
     background-color: #222;
-<<<<<<< HEAD
     padding: 15px 0px 10px;
-=======
     padding: 120px 0px 10px;
->>>>>>> v2.0
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -420,13 +413,13 @@ a {
 
 .footer-ul {
     list-style-type: none;
-    padding:0px 0px 20px;
-    margin:0px;
-    display:block;
+    padding: 0px 0px 20px;
+    margin: 0px;
+    display: block;
 }
 
 .footer-li {
-    display:inline-block;
+    display: inline-block;
     min-width: 60px;
     padding: 0px;
     text-transform: uppercase;
@@ -436,7 +429,7 @@ a {
 .footer-li a {
     color: white;
     padding: 5px 10px;
-    display:block;
+    display: block;
 }
 
 .copyright {
@@ -445,9 +438,9 @@ a {
 }
 
 .content-panel {
-    float:left;
+    float: left;
     height: 100%;
-    width:50%;
+    width: 50%;
 }
 
 .habhub-iframe {
@@ -459,12 +452,11 @@ a {
     height: 500px;
 }
 
-<<<<<<< HEAD
-
 @media screen and (max-width:1300px) {
-=======
-.center {
-    text-align:center;
+    
+    .center {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:1367px) {
@@ -477,7 +469,6 @@ a {
 
 @media screen and (max-width:1300px) {
 
->>>>>>> v2.0
     .nav-li {
         min-width: 16.66%;
         font-size: 17px;
@@ -537,12 +528,9 @@ a {
 
     .team-li {
         padding: 10px;
-<<<<<<< HEAD
         float: left;
-=======
         /*float: left;*/
-        display:inline-block;
->>>>>>> v2.0
+        display: inline-block;
     }
 
     .team-span::after {
@@ -563,17 +551,15 @@ a {
         transform: scale(1);
     }
 
-<<<<<<< HEAD
     .team-li:nth-child(6n+1) {
         clear: both;
         display: block;
     }
-=======
+
     /*.team-li:nth-child(5n+6) {
         clear: both;
         display: block;
     }*/
->>>>>>> v2.0
 
     .text-logo {
         margin-top: -15px;
