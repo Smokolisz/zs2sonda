@@ -22,18 +22,7 @@ mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
 
 Options FollowSymLinks
 RewriteEngine on
-RewriteBase /blog/
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 DirectoryIndex index.php
-RewriteRule (.+)/$ /blog/$1 [L,R=301,NC]
-RewriteRule /blog/kategorie/ /blog/strona-glowna [L,R=301,NC]
-RewriteRule strona-glowna index.php [NC]
-RewriteRule ^szukaj$ search.php [NC]
-RewriteRule ^zaplecze$ /zaplecze/index.php [NC]
-RewriteRule ^([0-9]+)$ kategoria.php?kat=$1 [NC]
-RewriteRule ^([0-9]+)/([A-Za-z0-9-_]+)$ kategoria.php?kat=$1 [NC]
-RewriteRule ^([0-9]+)/([A-Za-z0-9-_]+)/([0-9]+)$ article.php?id=$3&kat=$1 [NC]
-RewriteRule ^([0-9]+)/([A-Za-z0-9-_]+)/([0-9]+)/([a-z0-9\-]+)$ article.php?id=$3&kat=$1 [NC]
-#RewriteRule ^szukaj/([A-Za-z0-9-_]+)/$ search.php?search=$1 [NC]
