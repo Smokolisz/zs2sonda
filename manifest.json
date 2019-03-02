@@ -1,0 +1,15 @@
+{
+    "short_name": "Sonda FUMzs2",
+    "name": "Z ulicy Krańcowej po Krańce Stratosfery",
+    "icons": [
+      {
+        "src": "img/favicon/favicon.ico",
+        "type": "image/ico",
+        "sizes": "16x16"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#222222",
+    "display": "fullscreen",
+    "theme_color": "#222222"
+  }
