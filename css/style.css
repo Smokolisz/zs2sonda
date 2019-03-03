@@ -19,6 +19,15 @@ body {
     font-size: 18px;
 }
 
+a {
+    color: rgb(20, 74, 145);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .top {
     width: 100%;
     height: 400px;
@@ -91,6 +100,7 @@ body {
     text-align: center;
     z-index: 5;
     text-transform: uppercase;
+    text-decoration: none !important;
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -382,11 +392,6 @@ body {
     display: block;
     width: 80%;
     height: 80%;
-}
-
-a {
-    color: rgb(20, 74, 145);
-    text-decoration: none;
 }
 
 .footer {

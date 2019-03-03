@@ -6,6 +6,6 @@ Deny from all
 
 AuthType Basic
 AuthName "Zaloguj się na zaplecze"
-AuthUserFile /profiles/k/ka/kaj/kajzeroo/3dhzhr.cba.pl/zaplecze/1/2/.htpasswd
+AuthUserFile C:\xampp\htdocs\sonda\zaplecze\1\2/.htpasswd
 Require valid-user
 ErrorDocument 401 "Authorisation Required"

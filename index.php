@@ -120,7 +120,7 @@
 
                 <!--<div class="post-el">
                     <h2 class="post-title">Tytuł</h2>
-                    <p class="post-content">Tresd asdsa sad asdasdas sa sadasdasduy guygyg ygygyg ygyygy yy yy ygygyg ygyy dsfsdf.</p>
+                    <p class="post-content">Treść</p>
                     <p class="post-info">Opublikowano <time datetime="2011-01-07T20:40:06+00:00" class="dt-published" itemprop="datePublished">07.01.2011</time> w kategorii test</p>
                 </div>-->
             
@@ -223,6 +223,8 @@
                 <li class="footer-li"><a href="https://www.facebook.com/zs2ostrzeszow/" target="_blank" rel="noopener">Facebook</a></li>
                 <li class="footer-li"><a href="https://www.facebook.com/events/2146897728954444/" target="_blank" rel="noopener">Wydarzenie</a></li>
                 <li class="footer-li"><a href="https://zrzutka.pl/8amf3y" target="_blank" rel="noopener">Wesprzyj</a></li>
+                <li class="footer-li"><a href="zaplecze/1/2/index.php" target="_blank" rel="noopener">Zaloguj</a></li>
+                <li class="footer-li"><a href="https://github.com/Smokolisz/zs2sonda" target="_blank" rel="noopener">GitHub</a></li>
             </ul>
             <!-- https://github.com/Smokolisz/zs2sonda -->
             <p class="copyright">Wszelkie prawa zastrzeżone &copy;</p>
