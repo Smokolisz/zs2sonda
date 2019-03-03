@@ -438,6 +438,7 @@ a:hover {
 }
 
 .copyright {
+    padding-top:15px;
     font-size: 14px;
     font-weight: 400;
 }
@@ -533,8 +534,6 @@ a:hover {
 
     .team-li {
         padding: 10px;
-        float: left;
-        /*float: left;*/
         display: inline-block;
     }
 
@@ -554,11 +553,6 @@ a:hover {
 
     .team-li:hover .team-span:after {
         transform: scale(1);
-    }
-
-    .team-li:nth-child(6n+1) {
-        clear: both;
-        display: block;
     }
 
     /*.team-li:nth-child(5n+6) {
