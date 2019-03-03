@@ -257,7 +257,7 @@
                 <li class="footer-li"><a href="https://www.facebook.com/events/2146897728954444/" target="_blank" rel="noopener"><?php if($eng){echo $engText["fNav2"];}else{echo 'Wydarzenie';} ?></a></li>
                 <li class="footer-li"><a href="https://zrzutka.pl/8amf3y" target="_blank" rel="noopener"><?php if($eng){echo $engText["fNav3"];}else{echo 'Wesprzyj';} ?></a></li>
                 <li class="footer-li"><a href="zaplecze/1/2/index.php" target="_blank" rel="noopener"><?php if($eng){echo $engText["fNav4"];}else{echo 'Zaloguj';} ?></a></li>
-                <li class="footer-li"><a href="https://github.com/Smokolisz/zs2sonda" target="_blank" rel="noopener"><?php if($eng){echo $engText["fNav4"];}else{echo 'GitHub';} ?></a></li>
+                <li class="footer-li"><a href="https://github.com/Smokolisz/zs2sonda" target="_blank" rel="noopener">GitHub</a></li>
             </ul>
             <a href="?lang=pl" title="Strona w języku polskim"><img src="img/pl2.png" alt="Polska flaga"></a>
             <a href="?lang=eng" title="Website in English language"><img src="img/eng2.jpg" alt="English flag"></a>
