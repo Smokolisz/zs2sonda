@@ -117,15 +117,12 @@
             <div class="content-section posts">
 
                 <h2 class="center">Aktualności</h2>
-
                 <!--<div class="post-el">
                     <h2 class="post-title">Tytuł</h2>
                     <p class="post-content">Treść</p>
                     <p class="post-info">Opublikowano <time datetime="2011-01-07T20:40:06+00:00" class="dt-published" itemprop="datePublished">07.01.2011</time> w kategorii test</p>
                 </div>-->
-            
                 <?php
-
                 $query = mysqli_query($conn, "SELECT wpisy.id,wpisy.tytul,wpisy.tresc,wpisy.data,kategorie.nazwa FROM wpisy INNER JOIN kategorie ON wpisy.kategoria = kategorie.idKat WHERE wpisy.widoczny=1");
 
                 while($row = mysqli_fetch_assoc($query)) {
@@ -133,11 +130,8 @@
                     <div class="post-content">'.$row["tresc"].'</div>
                     <p class="post-info">Opublikowano <time datetime="'.$row["data"].'" class="dt-published" itemprop="datePublished">'.$row["data"].'</time> w kategorii '.$row["nazwa"].'</p></div>';
                 }
-
                 ?>
-            
             </div>
-
         </article>
 
         <section class="team-section" id="team">
@@ -180,7 +174,6 @@
         <div>
             <iframe width="490" height="310" src="https://tracker.habhub.org/index.html?embed=1&hidelist=1&hidegraph=0&expandgraph=0&filter=SP3KRE%3BSP6ZWR" class="habhub-iframe" title="Mapa Habhub"></iframe>
         </div>
-        
 
         <section class="transmission-panel" id="transmission">
             <div class="transmission-heading">
@@ -191,7 +184,7 @@
                 $query = mysqli_query($conn, "SELECT * FROM transmisja LIMIT 1");
                 $row = mysqli_fetch_assoc($query);
             ?>
-            <iframe src="<?php echo $row["url"];?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="yt-player" title="Transmisja na żywo z balonu stratosferycznego"></iframe>
+            <iframe src="<?php echo $row["url"].'?autoplay=1&rel=0';?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="yt-player" title="Transmisja na żywo z balonu stratosferycznego"></iframe>
             
         </section>
 

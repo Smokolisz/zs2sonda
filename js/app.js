@@ -2,6 +2,7 @@ const navHtml = '<nav class="nav"><ul class="nav-ul clearfix"><li class="nav-li"
 
 const navMobile = document.querySelector("#nav-mobile");
 const nav = document.getElementById("nav");
+
 function navResize(x) {
   if (x.matches) { // If media query matches
     navMobile.innerHTML = navHtml;
@@ -105,8 +106,4 @@ function jump(target, options) {
     return -c / 2 * (t * (t - 2) - 1) + b
   }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> v2.0

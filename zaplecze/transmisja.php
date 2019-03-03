@@ -79,6 +79,7 @@
 				<h1>Podaj link do transmisji:</h1>
 			</header>
 			<div id="editor">
+			<form method="POST">
 				<input type="url" name="url" placeholder="URL" required><br>
 				<input type="submit"><br><br>
 
@@ -88,8 +89,9 @@
 					$row = mysqli_fetch_assoc($query);
 
 					echo '<p>Obecny link to: <a href="'.$row["url"].'" target="_blank">'.$row["url"].'</a></p>';
-
 				?>
+			</form>
+				
 			</div>
 		</section>
 	
