@@ -3,6 +3,52 @@
 --><!DOCTYPE html>
 <html lang="pl">
 <head>
+
+    <?php
+    
+    $engText = array(
+        "title" => "From street Krańcowa to the edge of the stratosphere",
+        "headerDesc" => "Innovative project of students from school nr2 from Ostrzeszów",
+        "nav1" => "Start",
+        "nav2" => "About",
+        "nav3" => "Team",
+        "nav4" => "Transmission",
+        "nav5" => "Support",
+        "nav6" => "Contact",
+        "photoDesc" => "Students with professor Szałkowski",
+        "header1" => "About project",
+        "p1" => "A group of radio players under the direction of Grzegorz Szałkowski is carrying out a project to launch a stratospheric balloon with instrumentation. The planned start will take place on March 15, 2019 at 11:00 am on the school pitch at school nr 2 in Ostrzeszów.",
+        "p2" => "We will take out the probes with cameras and shortwave transmitters in the stratosphere, and the received signals will be decoded and presented on school screens. We also encourage all interested parties to independently decode broadcast images and measurement data on their own smartphones. We are happy to help and show how you can watch the impulses from our transmitters.",
+        "p3" => "Radio reception will be possible all the time during the climb, or more than 30 km up, until probes land on the surface.",
+        "p4" => "We would like to see how the world looks from the upper layers of the atmosphere and check whether continuous communication with our ground station will be maintained at every stage of the flight. We are also planning, for some time, to connect to the International Space Station (ISS) from our school radio station.",
+        "p5" => "About us",
+        "p6" => "We are a group of enthusiasts who want to make our yard of School No. 2 more attractive with the help of all scientific projects, aimed at showing that science does not always go down with boredom and monotony, but can be very interesting and developing new interests.",
+        "p7" => "On board our probe will be:",
+        "li1" => "SSTV transmitter",
+        "li2" => "ATV transmitter",
+        "li3" => "Two RS41 radiosonds",
+        "li4" => "Camera",
+        "p8" => "Tonal frequency:",
+        "li5" => "APRS: 432.500MHz",
+        "li6" => "RTTY: 436,600MHz + 437,700MHz",
+        "li7" => "SSTV: 144,500MHz",
+        "li8" => "ATV: 1.2GHz",
+        "header2" => "Poll",
+        "p9" => "We often look for meteorological radiosondes with only the equipment decoding the position of the probe and the walkie-talkie, thanks to which we know the signal level and we can get closer to this probe. Although we have a decoded probe position, it is not always reliable and we support the shortwave radio. We have already been on several such trips and unfortunately not all are successful.",
+        "header3" => "News",
+        "header4" => "Team",
+        "schoolName" => "Schools No. 2 <br> them. Polish-Norwegian Friendship in Ostrzeszów",
+        "header5" => "Transmission",
+        "fNav1" => "Contact",
+        "fNav2" => "School website",
+        "fNav3" => "Event",
+        "fNav4" => "Support",
+        "fNav5" => "Login",
+        "fNav6" => "All rights reserved &copy;",
+    );
+    
+    ?>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Z ulicy Krańcowej po krańce stratosfery - strona główna</title>
@@ -87,7 +133,7 @@
 
             <div class="content-section">
                 <h2>O nas</h2>
-                <p>Jesteśmy grupą zapaleńców którzy chcą uczynić nasze podwórko Zespołu Szkół nr.2 bardziej atrakcyjne za pomocą wszelakich projektów naukowych, mających na celu ukazanie, że nauka nie zawsze idzie w parzę z nudą i monotonią, ale może być bardzo ciekawa i rozwijająca nowe zainteresowania. </p>
+                <p>Jesteśmy grupą zapaleńców którzy chcą uczynić nasze podwórko Zespołu Szkół nr.2 bardziej atrakcyjne za pomocą wszelakich projektów naukowych, mających na celu ukazanie, że nauka nie zawsze idzie w parzę z nudą i monotonią, ale może być bardzo ciekawa i rozwijająca nowe zainteresowania.</p>
             </div>
             
             
