@@ -1,4 +1,12 @@
-const navHtml = '<nav class="nav"><ul class="nav-ul clearfix"><li class="nav-li"><a href="#top" class="nav-a">Start</a></li><li class="nav-li"><a href="#about" class="nav-a">O projekcie</a></li><li class="nav-li"><a href="#team" class="nav-a">Zespół</a></li><li class="nav-li"><a href="#transmission" class="nav-a important">Transmisja</a></li><li class="nav-li"><a href="https://zrzutka.pl/8amf3y" rel="noopener" class="nav-a" target="_blank">Wesprzyj</a></li><li class="nav-li"><a href="#contact" class="nav-a">Kontakt</a></li></ul></nav>';
+var url_string = window.location.href; //window.location.href
+var url = new URL(url_string);
+var lang = url.searchParams.get("lang");
+
+if(lang == 'eng') {
+  navHtml = '<nav class="nav"><ul class="nav-ul clearfix"><li class="nav-li"><a href="#top" class="nav-a">Start</a></li><li class="nav-li"><a href="#about" class="nav-a">About</a></li><li class="nav-li"><a href="#team" class="nav-a">Team</a></li><li class="nav-li"><a href="#transmission" class="nav-a important">Transmission</a></li><li class="nav-li"><a href="https://zrzutka.pl/8amf3y" rel="noopener" class="nav-a" target="_blank">Support</a></li><li class="nav-li"><a href="#contact" class="nav-a">Contact</a></li></ul></nav>';
+} else {
+  navHtml = '<nav class="nav"><ul class="nav-ul clearfix"><li class="nav-li"><a href="#top" class="nav-a">Start</a></li><li class="nav-li"><a href="#about" class="nav-a">O projekcie</a></li><li class="nav-li"><a href="#team" class="nav-a">Zespół</a></li><li class="nav-li"><a href="#transmission" class="nav-a important">Transmisja</a></li><li class="nav-li"><a href="https://zrzutka.pl/8amf3y" rel="noopener" class="nav-a" target="_blank">Wesprzyj</a></li><li class="nav-li"><a href="#contact" class="nav-a">Kontakt</a></li></ul></nav>';
+}
 
 const navMobile = document.querySelector("#nav-mobile");
 const nav = document.getElementById("nav");
