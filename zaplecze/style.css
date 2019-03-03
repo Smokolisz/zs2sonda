@@ -3,7 +3,7 @@
 
 font-family: OpenSansCondensed-Light;
 
-src:url(/font/OpenSansCondensed-Light.ttf);
+src:url(../font/OpenSansCondensed-Light.ttf);
 
 }
 
@@ -12,7 +12,7 @@ src:url(/font/OpenSansCondensed-Light.ttf);
 
 font-family: Roboto;
 
-src:url(/font/Roboto-Regular.ttf);
+src:url(../font/Roboto-Regular.ttf);
 
 }
 
