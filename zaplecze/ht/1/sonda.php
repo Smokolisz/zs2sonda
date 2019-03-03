@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>sonda</title></head><body><form method="POST" action="init.php"><input type="text" name="code"><input type="submit"></form></body></html>
